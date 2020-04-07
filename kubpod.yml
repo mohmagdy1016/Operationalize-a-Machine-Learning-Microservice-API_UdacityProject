@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: first-api
+  labels:
+    app: myapp
+    type: restapi
+spec:
+  containers:
+  - name: udacity-api
+    image: mohmagdy1016/devopsudacityproject:latest
