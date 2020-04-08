@@ -25,7 +25,7 @@ Deploy a containerized Python flask application to serve out predictions (infere
 
 ## Kubernetes
 
- 1. Configure Kubernetes to Run Locally 
+ 1. Configure Kubernetes to Run Locally (install Minikube)
  2. Deploy with Kubernetes (./run_kubernetes.sh)
  3. Savings Output logs in the file kubernetes.out.txt
 
