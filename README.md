@@ -21,7 +21,7 @@ Deploy a containerized Python flask application to serve out predictions (infere
  1. Dockerfile configuration 
  2. Run a Container (./run_docker.sh)& Make a Prediction(./make_prediction.sh)
  3. Logging in the docker_out.txt file
- 4. upload docker image to docker hub (upload_docker.sh)
+ 4. Upload docker image to docker hub (upload_docker.sh)
 
 ## Kubernetes
 
