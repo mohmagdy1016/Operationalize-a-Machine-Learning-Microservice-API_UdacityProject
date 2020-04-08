@@ -13,8 +13,8 @@ Deploy a containerized Python flask application to serve out predictions (infere
   5. Test project code using linting.
   6. Complete a Dockerfile to containerize this application
   7. Deploy containerized application using Docker and make a prediction
-  8. Deploy a container using Kubernetes and make a prediction
-  9. Upload a complete Github repo with CircleCI to indicate the code has been tested
+  8. Upload a complete Github repo with CircleCI to indicate the code has been tested
+  9. Deploy a container using Kubernetes and make a prediction
   
 ## Dockerfile
 
