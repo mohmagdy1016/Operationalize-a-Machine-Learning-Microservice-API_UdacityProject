@@ -1,8 +1,30 @@
+(.devops) mohmagdy@mohmagdy-VirtualBox:~/projWorkingDir$ ./run_kubernetes.sh
+pod/first-api created
+NAME        READY   STATUS              RESTARTS   AGE
+first-api   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+(.devops) mohmagdy@mohmagdy-VirtualBox:~/projWorkingDir$ ./run_kubernetes.sh
+Error from server (AlreadyExists): error when creating "/home/mohmagdy/projWorkingDir/kubpod.yml": pods "first-api" already exists
 NAME        READY   STATUS    RESTARTS   AGE
-first-api   1/1     Running   1          42h
+first-api   1/1     Running   0          16s
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
-Handling connection for 8000
+
+
+
+mohmagdy@mohmagdy-VirtualBox:~/projWorkingDir$ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+
+
+
+
+
 
 
